@@ -4,4 +4,6 @@ Just some recreational coding in the TDD paradigm for this interesting language.
 
 I do this if I ever finish the crossword.
 
-HAppy to do any katas that are suggested.
+I tend to do thsi stuff in a nix-shell.
+
+For my own ReadMe see the pdf made with `vim -> pdflatex -> papers`
