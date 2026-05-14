@@ -1,0 +1,39 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\title{Rust notes}
+\author{Keith Reid}
+\begin{document}
+\maketitle{}
+\section{Intro}
+I have decided to use pdflatex and papers to write my ReadMe from now on.
+
+\section{Build}
+There are two ways to build:
+\begin{itemize}
+  \item naive fragile way is to write the main.rs:\\
+    \texttt{\$ rustc main.rs}\\
+    \texttt{\$ ./main}\\
+    \texttt{\$ Hello, world!}\\
+
+  \item but the slightly trickier more robust way is to use cargo build:\\
+    \texttt{\$ cargo new hello\_cargo}\\
+    \texttt{\$ cd hello\_cargo}\\
+    ...which lets you do \texttt{\$ cargo build} or \texttt{\$ cargo run}
+\end{itemize}
+
+As the docs say, 
+
+\begin{itemize}
+  \item create a project using \texttt{\$ cargo new}
+  \item build a project using \texttt{\$ cargo build}
+  \item build and run a project in one step using \texttt{\$ cargo run}
+  \item build a project without producing a binary using \texttt{\$ cargo check}
+   \item Cargo stores binaries in the target/debug directory.
+   \item at p50 Urwin takes us through the \#[test] attribute.
+\end{itemize}
+
+\end{document}
