@@ -10,6 +10,4 @@ I tend to do this stuff in a nix-shell.
 
 For my own ReadMe see the pdf made with `vim -> pdflatex -> papers`
 
-My handrolled tests in the earlier kata are not rust-idioamatic, they should use the [#test] macro but they don't.
-
-Still, they are working unit tests in the context of their little programmes. 
+My handrolled tests in the earlier kata are not rust-idiomatic, they should use the [#test] macro but they don't. Still, they are working unit tests in the context of their little programmes. 
